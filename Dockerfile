@@ -1,5 +1,5 @@
 FROM fedora:21
-RUN yum install git gcc
+RUN yum install -y git gcc
 RUN mkdir /git.src
 WORKDIR /git.src
 RUN git clone git://git.skarnet.org/execline
