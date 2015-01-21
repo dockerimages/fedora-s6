@@ -1,4 +1,4 @@
-FROM fedroa:21
+FROM fedora:21
 RUN yum install git gcc
 RUN mkdir /git.src
 WORKDIR /git.src
